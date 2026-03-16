@@ -12,12 +12,11 @@ This toolkit answers a set of questions that matter to researchers, librarians, 
 - Does availability vary by journal tier, funding source, or sub-topic?
 
 This project checks in two stages:
-1. Cataloging the full population of articles from top journals
-1. Probing a random sample against multiple metadata sources to characterize access.
+1. Cataloging allcarticles from top journals using json text as a search when connecting with an api.
+1. Probing a random sample against multiple metadata sources to characterize access
 
-**No full text or PDFs are downloaded at any stage.** All probes collect metadata only — BibTeX records, abstracts, OA status flags, landing-page URLs, and publication dates.
-
----
+**No full text or PDFs are downloaded at any stage.**
+Metadata only — BibTeX records, abstracts, OA status flags, landing-page URLs, and publication dates.
 
 ## Project Structure
 
