@@ -1,8 +1,6 @@
-# Scientific Article Access & Availability Research Toolkit
+# Empirical analysis of how and when clinical psychology articles (2021–2025) become accessible online
 
-**Empirical analysis of how and when clinical psychology articles (2021–2025) become accessible online.**
-
----
+Many scientific articles are behind pay walls. Some are not. Are there links for articles not resolving to a publisher when it should? Did a oblige release an article behind a partial after it was previously available? 
 
 ## Overview
 
@@ -13,7 +11,9 @@ This toolkit answers a set of questions that matter to researchers, librarians, 
 - How long after publication does free access typically appear?
 - Does availability vary by journal tier, funding source, or sub-topic?
 
-It does this in two stages: first cataloging the full population of articles from top journals, then probing a random sample against multiple metadata sources to characterize access.
+This project checks in two stages:
+1. Cataloging the full population of articles from top journals
+1. Probing a random sample against multiple metadata sources to characterize access.
 
 **No full text or PDFs are downloaded at any stage.** All probes collect metadata only — BibTeX records, abstracts, OA status flags, landing-page URLs, and publication dates.
 
@@ -24,13 +24,13 @@ It does this in two stages: first cataloging the full population of articles fro
 ```
 .
 ├── README.md                          ← You are here
-├── article_access_research_plan.md    ← Full research plan & methodology
+├── article_access_research_plan.md    ← Research plan & methodology
 ├── catalog_population.py              ← Script 1: enumerate article population
 ├── sample_and_probe.py                ← Script 2: sample & probe multiple sources
 └── requirements.txt                   ← Python dependencies
 ```
 
-### Generated outputs (after running the scripts)
+## Generated outputs (after running the scripts)
 
 ```
 ├── articles.csv              ← Full population catalog (Script 1)
@@ -247,8 +247,10 @@ All APIs are queried within their stated limits. The scripts implement exponenti
 
 ## License
 
-Research use. See `article_access_research_plan.md` for full methodology.
+Research use. See `article_access_research_plan.md` for methodology.
 
 ---
 
-*Generated 2026-03-15*
+- Generated 2026-03-15
+- updated intro and title 2026-03-16
+
