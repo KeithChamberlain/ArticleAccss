@@ -1,0 +1,68 @@
+{
+  "0033-3190": {
+    "openalex_id": "https://openalex.org/S184803288",
+    "short_id": "S184803288",
+    "display_name": "Psychotherapy and Psychosomatics",
+    "works_count": 4846
+  },
+  "2167-7026": {
+    "openalex_id": "https://openalex.org/S2764897075",
+    "short_id": "S2764897075",
+    "display_name": "Clinical Psychological Science",
+    "works_count": 1041
+  },
+  "2062-5871": {
+    "openalex_id": "https://openalex.org/S2764456207",
+    "short_id": "S2764456207",
+    "display_name": "Journal of Behavioral Addictions",
+    "works_count": 1173
+  },
+  "0144-6657": {
+    "openalex_id": "https://openalex.org/S36339387",
+    "short_id": "S36339387",
+    "display_name": "British Journal of Clinical Psychology",
+    "works_count": 2350
+  },
+  "0022-006X": {
+    "openalex_id": "https://openalex.org/S118719888",
+    "short_id": "S118719888",
+    "display_name": "Journal of Consulting and Clinical Psychology",
+    "works_count": 12285
+  },
+  "0887-6185": {
+    "openalex_id": "https://openalex.org/S110204754",
+    "short_id": "S110204754",
+    "display_name": "Journal of Anxiety Disorders",
+    "works_count": 3194
+  },
+  "1073-1911": {
+    "openalex_id": "https://openalex.org/S155907396",
+    "short_id": "S155907396",
+    "display_name": "Assessment",
+    "works_count": 2538
+  },
+  "0165-0327": {
+    "openalex_id": "https://openalex.org/S113871862",
+    "short_id": "S113871862",
+    "display_name": "Journal of Affective Disorders",
+    "works_count": 22859
+  },
+  "0021-843X": {
+    "openalex_id": "https://openalex.org/S121947241",
+    "short_id": "S121947241",
+    "display_name": "Journal of Abnormal Psychology",
+    "works_count": 7267
+  },
+  "0005-7967": {
+    "openalex_id": "https://openalex.org/S186589312",
+    "short_id": "S186589312",
+    "display_name": "Behaviour Research and Therapy",
+    "works_count": 8727
+  },
+  "2769-755X": {
+    "openalex_id": "https://openalex.org/S4210191519",
+    "short_id": "S4210191519",
+    "display_name": "Journal of Psychopathology and Clinical Science",
+    "works_count": 692
+  }
+}

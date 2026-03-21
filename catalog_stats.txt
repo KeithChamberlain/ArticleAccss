@@ -1,0 +1,79 @@
+============================================================
+CATALOG SUMMARY
+Clinical Psychology Articles (Top 10 Journals, 2021–2025)
+Generated: 2026-03-15T15:14:40.751224
+============================================================
+
+Selection criteria:
+  Journals:  Top 10 empirical Clinical Psychology journals
+             by SJR (2024), Scimago category 3203
+  Years:     2021–2025
+  Type:      article (excludes editorials, errata, letters)
+  Retracted: excluded
+  XPAC:      excluded by default
+
+Source IDs used:
+  S184803288      Psychotherapy and Psychosomatics
+  S2764897075     Clinical Psychological Science
+  S2764456207     Journal of Behavioral Addictions
+  S36339387       British Journal of Clinical Psychology
+  S118719888      Journal of Consulting and Clinical Psychology
+  S110204754      Journal of Anxiety Disorders
+  S155907396      Assessment
+  S113871862      Journal of Affective Disorders
+  S121947241      Journal of Abnormal Psychology
+  S186589312      Behaviour Research and Therapy
+  S4210191519     Journal of Psychopathology and Clinical Science
+
+Total articles: 10,750
+
+By year:
+publication_year
+2021    1980
+2022    1795
+2023    1930
+2024    2248
+2025    2797
+
+By journal:
+journal_name
+Journal of Affective Disorders                     6727
+Behaviour Research and Therapy                      635
+Journal of Psychopathology and Clinical Science     633
+Journal of Consulting and Clinical Psychology       576
+Assessment                                          540
+Journal of Behavioral Addictions                    394
+Clinical Psychological Science                      372
+Journal of Anxiety Disorders                        364
+British Journal of Clinical Psychology              255
+Psychotherapy and Psychosomatics                    144
+Journal of Abnormal Psychology                      110
+
+Open Access breakdown:
+oa_status
+closed    5882
+hybrid    2837
+green     1421
+gold       423
+bronze     187
+
+Articles with DOI: 10,749 (100.0%)
+
+Top 10 publishers:
+publisher
+Elsevier BV                           7726
+American Psychological Association    1319
+SAGE Publishing                        912
+Akadémiai Kiadó                        394
+Wiley                                  255
+Karger Publishers                      144
+
+Citation statistics:
+count    10750.000000
+mean        11.310419
+std         23.225344
+min          0.000000
+25%          1.000000
+50%          6.000000
+75%         14.000000
+max       1365.000000
