@@ -1,0 +1,193 @@
+% bibliography.bib — Article Access & Availability Research Toolkit
+% Last updated: 2026-03-16
+
+% ---------------------------------------------------------------------------
+% Bibliometric justification
+% ---------------------------------------------------------------------------
+
+@article{himmelstein2018scihub,
+  author    = {Himmelstein, Daniel S. and Romero, Ariel Rodriguez and
+               Levernier, Jacob G. and Munro, Thomas Anthony and
+               McLaughlin, Stephen Reid and Greshake~Tzovaras, Bastian and
+               Greene, Casey S.},
+  title     = {Sci-Hub Provides Access to Nearly All Scholarly Literature},
+  journal   = {eLife},
+  volume    = {7},
+  pages     = {e32822},
+  year      = {2018},
+  month     = mar,
+  doi       = {10.7554/eLife.32822},
+  pmid      = {29424689},
+  pmcid     = {PMC5832410},
+  url       = {https://elifesciences.org/articles/32822},
+  abstract  = {The website Sci-Hub enables users to download PDF versions of
+               scholarly articles, including many articles that are paywalled
+               at their journal's site.  As of March 2017, Sci-Hub's
+               database contains 68.9\% of the 81.6 million scholarly
+               articles registered with Crossref and 85.1\% of articles
+               published in toll access journals.},
+  keywords  = {open access, Sci-Hub, bibliometrics, shadow library,
+               scholarly communication},
+}
+
+@article{bohannon2016scihub,
+  author    = {Bohannon, John},
+  title     = {Who's Downloading Pirated Papers?  {Everyone}},
+  journal   = {Science},
+  volume    = {352},
+  number    = {6285},
+  pages     = {508--512},
+  year      = {2016},
+  month     = apr,
+  doi       = {10.1126/science.352.6285.508},
+  url       = {https://www.science.org/doi/10.1126/science.352.6285.508},
+  note      = {Analysis of six months of Sci-Hub server access logs
+               (Sept.\ 2015--Feb.\ 2016), covering 28 million download
+               events from 3 million unique IP addresses worldwide.},
+  keywords  = {Sci-Hub, piracy, open access, download logs},
+}
+
+@article{greshake2017pandora,
+  author    = {Greshake, Bastian},
+  title     = {Looking into {Pandora's Box}: The Content of {Sci-Hub} and
+               Its Usage},
+  journal   = {F1000Research},
+  volume    = {6},
+  pages     = {541},
+  year      = {2017},
+  doi       = {10.12688/f1000research.11366.1},
+  url       = {https://f1000research.com/articles/6-541},
+  abstract  = {An analysis of usage data released by Sci-Hub, examining the
+               disciplinary distribution and temporal patterns of
+               downloaded articles.},
+  keywords  = {Sci-Hub, open access, usage analysis, bibliometrics},
+}
+
+@article{cabanac2016bibliogifts,
+  author    = {Cabanac, Guillaume},
+  title     = {Bibliogifts in {LibGen}?  {A} Study of a Text-Sharing
+               Platform Driven by Biblioleaks and Crowdsourcing},
+  journal   = {Journal of the Association for Information Science and
+               Technology},
+  volume    = {67},
+  number    = {4},
+  pages     = {874--884},
+  year      = {2016},
+  doi       = {10.1002/asi.23445},
+  url       = {https://onlinelibrary.wiley.com/doi/10.1002/asi.23445},
+  abstract  = {Reveals that 36\% of all DOI-identified articles are
+               available in Library Genesis, with higher coverage for
+               Elsevier (77\%), Wiley (73\%), and Springer (53\%).},
+  keywords  = {Library Genesis, LibGen, shadow library, text sharing,
+               biblioleaks},
+}
+
+@article{mejia2017scihub_latam,
+  author    = {Mejia, Christian R. and Valladares-Garrido, Mario J. and
+               Mi{\~n}an-Tapia, Armando and Serrano, Fiorella T. and
+               Tobler-G{\'o}mez, Lourdes E. and
+               Pereda-Castro, Walter and others},
+  title     = {Use, Knowledge, and Perception of the Scientific
+               Contribution of {Sci-Hub} in Medical Students: Study in
+               Six Countries in {Latin America}},
+  journal   = {PLOS ONE},
+  volume    = {12},
+  number    = {10},
+  pages     = {e0185673},
+  year      = {2017},
+  month     = oct,
+  doi       = {10.1371/journal.pone.0185673},
+  pmid      = {28981536},
+  pmcid     = {PMC5628842},
+  url       = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185673},
+  keywords  = {Sci-Hub, medical students, Latin America, open access,
+               survey},
+}
+
+% ---------------------------------------------------------------------------
+% Data & infrastructure sources used by the toolkit
+% ---------------------------------------------------------------------------
+
+@misc{openalex2024,
+  author    = {{OurResearch}},
+  title     = {{OpenAlex}: The Open Catalog of Scholarly Works, Authors,
+               Institutions, and More},
+  year      = {2024},
+  url       = {https://openalex.org},
+  note      = {Successor to Microsoft Academic Graph; indexes
+               >250 million works.  Free API; polite-pool access with
+               mailto header.},
+}
+
+@misc{unpaywall2024,
+  author    = {{OurResearch}},
+  title     = {{Unpaywall}: An Open Database of Free Scholarly Articles},
+  year      = {2024},
+  url       = {https://unpaywall.org},
+  note      = {Harvests OA copies from >50,000 repositories and publisher
+               sites.  API keyed by DOI.},
+}
+
+@misc{crossref2024,
+  author    = {{Crossref}},
+  title     = {{Crossref REST API}},
+  year      = {2024},
+  url       = {https://api.crossref.org},
+  note      = {Canonical DOI metadata including BibTeX export via
+               content-negotiation (Accept: application/x-bibtex).},
+}
+
+@misc{semanticscholar2024,
+  author    = {{Allen Institute for AI}},
+  title     = {{Semantic Scholar Academic Graph API}},
+  year      = {2024},
+  url       = {https://api.semanticscholar.org},
+  note      = {Graph-based scholarly search; provides abstracts, external
+               IDs, and open-access PDF flags.},
+}
+
+@misc{ncbi_eutils2024,
+  author    = {{National Center for Biotechnology Information}},
+  title     = {{Entrez Programming Utilities (E-Utilities)}},
+  year      = {2024},
+  url       = {https://www.ncbi.nlm.nih.gov/books/NBK25501/},
+  note      = {Programmatic access to PubMed, PubMed Central, and other
+               NCBI databases.  Rate limit: 3 req/s without API key,
+               10 req/s with key.},
+}
+
+@misc{europepmc2024,
+  author    = {{EMBL-EBI}},
+  title     = {{Europe PMC RESTful Web Services}},
+  year      = {2024},
+  url       = {https://europepmc.org/RestfulWebService},
+  note      = {Parallel to PubMed; includes preprints, author manuscripts,
+               and full-text availability flags.},
+}
+
+@misc{core2024,
+  author    = {{The Open University}},
+  title     = {{CORE API} v3},
+  year      = {2024},
+  url       = {https://core.ac.uk/documentation/api},
+  note      = {Aggregates OA content from thousands of repositories.
+               Free API key required for v3.},
+}
+
+@misc{wayback2024,
+  author    = {{Internet Archive}},
+  title     = {{Wayback CDX Server API}},
+  year      = {2024},
+  url       = {https://web.archive.org/cdx/search/cdx},
+  note      = {Returns capture timestamps for any URL, enabling
+               ``first-archived'' date estimation.},
+}
+
+@misc{scimago2024,
+  author    = {{SCImago}},
+  title     = {{SCImago Journal \& Country Rank}},
+  year      = {2024},
+  url       = {https://www.scimagojr.com},
+  note      = {Journal ranking by SJR indicator.  Category 3203 (Clinical
+               Psychology) used for journal selection.},
+}
